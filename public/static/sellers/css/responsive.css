@@ -1,0 +1,824 @@
+@media only screen and (max-width: 1600px) {
+    .vehicle_overview h4 {
+        font-size: 16px;
+    }
+    .vehicle_overview label {
+        font-size: 15px;
+    }
+    .vehicle_overview p {
+        font-size: 16px;
+    }
+    .vahicle_name h2 {
+        font-size: 24px;
+    }
+    .title_flx h4 {
+        font-size: 16px;
+    }
+    /*vehicle*/
+    .tab_section ul li a {
+        font-size: 18px;
+    }
+    .audi_cont h5 {
+        font-size: 18px;
+    }
+    .audi_cont span {
+        font-size: 15px;
+    }
+    .vehc_lst span {
+        font-size: 16px;
+    }
+    .price {
+        font-size: 20px;
+    }
+    .comm_det_lft span {
+        font-size: 16px;
+    }
+    span.amt_blu {
+        font-size: 16px;
+    }
+    .vehicle_tst .terms {
+        font-size: 14px;
+    }
+    .vehicle_tst .adv {
+        font-size: 14px;
+    }
+    /*vehicle*/
+    /*footer*/
+    .foot_scd ul li {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .footer_lst p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .footer_lst h2 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .foot_btm p {
+        font-size: 14px;
+    }
+    .foot_scd ul li a {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .foot_lst .msg_lst ul li,
+    .foot_lst .msg_lst ul li a {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    /*footer*/
+    /*mobile_app*/
+    .mobile_app_right h5 {
+        font-size: 16px;
+    }
+    .mobile_app_right h2 {
+        font-size: 24px;
+    }
+    .mobile_app_right h6 {
+        font-size: 18px;
+    }
+    .mobile_app_right p {
+        font-size: 14px;
+    }
+    /*mobile_app*/
+    /*how_it_work*/
+    .how_it_list .cont h4 {
+        font-size: 18px;
+    }
+    .how_it_list .cont p {
+        font-size: 14px;
+    }
+    /*how_it_work*/
+    .comp_main h3 {
+        font-size: 24px;
+    }
+    .compare_lst div h5 {
+        font-size: 18px;
+    }
+    .compare_lst p {
+        font-size: 15px;
+    }
+    .company_about h5 {
+        font-size: 24px;
+    }
+    .company_about p {
+        font-size: 16px;
+    }
+    .company_about a {
+        font-size: 16px;
+    }
+    /*about us*/
+    h2.title {
+        font-size: 24px;
+    }
+    .company_trade_left p {
+        font-size: 16px;
+    }
+    /*contact us*/
+    .contact_info h2 {
+        font-size: 24px;
+    }
+    .contact_info p {
+        font-size: 16px;
+    }
+    .mail_cont span {
+        font-size: 16px;
+    }
+    .mail_cont a {
+        font-size: 16px;
+    }
+    /*contact us*/
+    /*termscondition*/
+    h2.common_title {
+        font-size: 24px;
+    }
+    body p.sub_head {
+        font-size: 18px !important;
+    }
+    .common_cont_lst p {
+        font-size: 16px;
+    }
+    .common_cont_lst ul li {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 1279px) {
+    .container {
+        width: 94%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0px 3%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    /*footer*/
+    .foot_top {
+        flex-direction: column;
+    }
+    .footer_lst {
+        align-items: flex-start;
+    }
+    .foot_scd ul {
+        margin-left: 0;
+    }
+    .msg_lst,
+    .social_icons {
+        margin-left: 0;
+    }
+    .footer_lst {
+        margin-bottom: 30px;
+    }
+    .foot_top .footer_lst:last-child {
+        margin-bottom: 0px;
+    }
+    .social_icons {
+        margin-top: 20px;
+    }
+    /*footer*/
+    /*mobile_app*/
+    .mobile_app_section {
+        flex-direction: column;
+    }
+    /*mobile_app*/
+}
+
+@media only screen and (max-width: 991px) {
+    /*how_it_work*/
+    .howitwork_main {
+        flex-direction: column;
+    }
+    .how_it_work_left {
+        width: 100%;
+        transform: skewX(0deg);
+        margin-left: 0px !important;
+    }
+    .how_it_work_right {
+        padding: 50px 9%;
+        width: 80%;
+    }
+    .how_it_work_right h3 {
+        font-size: 26px;
+    }
+    /*how_it_work*/
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    .comp_main h3 {
+        font-size: 18px;
+    }
+
+    .notification_body {
+        width: 75%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1119px) {
+    .content_lst {
+        top: 16px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .slider .jcarousel img {
+        height: 500px !important;
+        object-fit: cover;
+    }
+    .content_lst {
+        font-size: 18px;
+        top: 105px !important;
+        width: 100%;
+        left: 0px;
+        padding: 10px !important;
+    }
+    .content_lst h4 {
+        font-size: 15px;
+    }
+    .content_lst p {
+        font-size: 14px;
+    }
+    .content_lst a {
+        font-size: 14px;
+    }
+    .content_lst a img {
+        height: 44px;
+    }
+    body .content_lst h1 {
+        font-size: 12px;
+        line-height: 21px;
+        margin-bottom: 9px !important;
+    }
+    body .common_content ul li a {
+        font-size: 12px;
+        line-height: 0;
+        padding: 0px !important;
+    }
+    body .common_content ul li span {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    .content_lst {
+        left: 120px !important;
+        width: 400px !important;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+    .content_lst {
+        left: 60px !important;
+        width: 400px !important;
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 479px) {
+    .content_lst {
+        left: 20px !important;
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 1185px) {
+    /*header*/
+    .logo_shape {
+        width: 100%;
+    }
+    .header_list {
+        width: 100%;
+    }
+    .head_lst {
+        width: 100%;
+    }
+    .my_account {
+        width: 100%;
+        padding: 0px !important;
+    }
+    .social_icon {
+        width: 100%;
+    }
+    .header_top_list {
+        display: flex;
+        flex-direction: column;
+    }
+    .social_icon ul {
+        float: none;
+        padding: 2px 20px;
+        background: #1763ea;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+    }
+    .header_bottom_list {
+        display: flex;
+        justify-content: center !important;
+        margin-bottom: 20px;
+    }
+    .company_about .container {
+        /* background: rgba(255, 255, 255, 0.9); */
+    }
+    /*header*/
+}
+
+@media only screen and (max-width: 580px) {
+    /*header*/
+    .header_bottom_list {
+        flex-direction: column;
+        margin-right: 0px;
+    }
+    .header_bottom_list ul {
+        float: left;
+        border-right: 0px;
+        margin-right: 0;
+        text-align: center;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .notifi {
+        margin-right: 0px;
+        width: 42px;
+        margin: 0 auto;
+    }
+    .head_btn {
+        margin: 0 auto;
+        margin-top: 12px;
+    }
+    /*header*/
+}
+/* Login */
+
+@media only screen and (max-width: 1600px) {
+    .login-section h2 {
+        font-size: 20px;
+    }
+    .login-section span {
+        font-size: 16px;
+    }
+    .login-section h4 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .input-container {
+        margin-top: 22px;
+    }
+    .input-container label,
+    .input-container select {
+        font-size: 15px;
+    }
+    .submit-btn {
+        margin-top: 30px;
+    }
+    .submit-btn button {
+        font-size: 15px;
+    }
+    .login-section p {
+        font-size: 15px;
+        margin-top: 13px;
+    }
+    .login-within-line {
+        margin: 46px 0 30px 0;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1400px) {
+    img.login-logo {
+        left: 5%;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .login-logo {
+        position: relative;
+        left: unset;
+        top: unset;
+        margin: 0 0 20px 20px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .swich-sec.active,
+    .swich-sec {
+        width: 150px;
+    }
+    .login-section {
+        padding: 30px 15px;
+        margin-top: 50px;
+        width: 100%;
+        max-width: 89%;
+    }
+    .input-container {
+        width: 80%;
+    }
+    .login_wrapper.create-account .login-section {
+        padding-right: 7px;
+    }
+    .input-container.input-container-inp_file {
+        width: 90.5%;
+    }
+    div#style-3 {
+        padding-right: 10px;
+    }
+    .input-container.input-container-select {
+        width: 81.5%;
+    }
+}
+/*End Login */
+/* Pricing */
+
+@media only screen and (min-width: 768px) and (max-width: 1700px) {
+    .div-cards {
+        width: 23.5%;
+    }
+    .pricing-chart-lft {
+        width: 28%;
+    }
+    .pricing-chart-rgt {
+        width: 67%;
+    }
+    .pricing-flow-part {
+        padding-left: 20%;
+        padding-right: 30px;
+    }
+    .pp-logo img {
+        margin-left: 5%;
+    }
+    .pick-a-plan.pap-abs {
+        padding: 7px 0;
+        bottom: -16px;
+        font-size: 12px;
+    }
+    /* payment method */
+    .pay-method-option {
+        width: 72.5%;
+        padding-left: 5%;
+    }
+    .or-part {
+        padding: 0 15px 0 15px;
+    }
+    /*End payment method */
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1280px) {
+    .div-cards {
+        width: 46%;
+        margin-bottom: 50px;
+    }
+    .division-of-cards {
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .pricing-chart-caption-sec {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .pc-caption-right {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .pricing-flow-part {
+        padding-left: 14%;
+        padding-right: 20px;
+    }
+    .pp-logo img {
+        margin-left: 4%;
+    }
+    .pricing-flow-part ul li p {
+        padding-left: 15px;
+    }
+    .pp-logo img {
+        width: 160px;
+    }
+    /*payment method */
+    .pricing-chart-card.pcc-pay-method {
+        max-width: 100%;
+    }
+    .card-credentials {
+        max-width: 96%;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .payment-selection b {
+        font-size: 14px;
+    }
+    .division-of-cards.division-method-rs .div-cards-prnt {
+        width: 30%;
+    }
+    .pay-method-option {
+        width: 65%;
+    }
+    .card-credent-short-form {
+        width: 100%;
+    }
+    .card-credent-long-form {
+        width: 96%;
+    }
+    /*End payment method */
+}
+
+@media only screen and (max-width: 767px) {
+    .pricing-chart-card {
+        max-width: 100%;
+    }
+    .pricing-chart-lft,
+    .pricing-chart-rgt {
+        width: 65%;
+    }
+    .pricing-flow-part {
+        padding-left: 20%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-right: 20px;
+        margin-top: 30px;
+    }
+    .pp-logo img {
+        margin-left: 20px;
+    }
+    .pricing-chart-caption-sec {
+        align-items: flex-start;
+        margin-top: 0;
+        flex-direction: column;
+        padding: 20px;
+        padding-left: 0;
+    }
+    .pc-caption-right {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .div-cards {
+        width: 92%;
+        margin: 0 auto 50px auto;
+    }
+    .division-of-cards {
+        flex-wrap: wrap;
+    }
+    .pricing-chart-rgt {
+        padding-left: 0;
+    }
+    .pricing-plan_wrapper {
+        background: url(/images/price-background.png) #fafbfd no-repeat;
+    }
+    .pick-a-plan.pap-abs {
+        max-width: 202px;
+    }
+    .pick-a-plan.pap-abs {
+        padding: 7px 0;
+        bottom: -16px;
+        font-size: 12px;
+    }
+    /*payment method */
+    .payment-selection b {
+        font-size: 14px;
+    }
+    .division-of-cards.division-method-rs .div-cards-prnt {
+        width: 100%;
+    }
+    .pay-method-option {
+        width: 100%;
+        padding-left: 0;
+    }
+    .card-credent-short-form {
+        width: 100%;
+    }
+    .card-credent-long-form {
+        width: 90%;
+    }
+    .pcc-pay-method .pricing-chart-lft,
+    .pcc-pay-method .pricing-chart-rgt {
+        width: 100%;
+        max-width: 75%;
+        float: none;
+        margin: auto;
+    }
+    .pay-option-section {
+        flex-wrap: wrap;
+    }
+    .payment-vpa-id {
+        margin-top: 20px;
+    }
+    .form-pay-now-btn button {
+        width: 200px;
+        font-weight: 600;
+    }
+    .card-credent-short-form {
+        padding-left: 0;
+    }
+    .card-credent-short-form .form-sec {
+        width: 42%;
+    }
+    /*End payment method */
+}
+/*End Pricing */
+
+@media only screen and (min-width: 768px) and (max-width: 1100px) {
+    .pay-option-section {
+        flex-wrap: wrap;
+    }
+    .payment-vpa-id {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .pcc-pay-method .pricing-chart-lft,
+    .pcc-pay-method .pricing-chart-rgt {
+        max-width: 90%;
+    }
+}
+/*Vehicle-Detail_Live Start*/
+
+@media only screen and (max-width: 991px) {
+    .vahicle_name h2 {
+        font-size: 25px;
+    }
+    .vahicle_name button,
+    .vehicle_overview label {
+        font-size: 15px;
+    }
+    .vehicle_overview p {
+        font-size: 16px;
+    }
+    .vehicle_overview label {
+        margin: 10px 0px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .bidding_list,
+    .vehicle_top_details,
+    .title_flx {
+        flex-direction: column;
+    }
+    .pricing_details {
+        width: 220px;
+        max-width: 100%;
+        margin-top: 25px;
+    }
+    .pricing_details button,
+    .person_contact_details {
+        width: 100%;
+    }
+    .vahicle_name {
+        margin-top: 25px;
+    }
+    .custom_tooltip {
+        width: 220px;
+        right: -130px;
+        height: 80px;
+    }
+    .person_info .phn_num {
+        margin-right: 0px;
+    }
+    .vehicle_top_price {
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .vehicle_flx {
+        flex-direction: column;
+    }
+    .slider_section,
+    .category_section {
+        width: 100%;
+    }
+    .popup {
+        padding: 20px;
+        height: 800px;
+    }
+    .popup_head h3 {
+        font-size: 18px;
+    }
+    .close_btn {
+        transform: scale(0.7);
+    }
+    .popup_body {
+        padding-right: 15px;
+    }
+    .flx_list {
+        margin-bottom: 10px;
+        max-width: 100%;
+    }
+    .flx_list * {
+        font-size: 15px !important;
+    }
+    .select_div:after {
+        right: 15px;
+    }
+    .flx_list textarea {
+        padding: 15px;
+    }
+    .popup_footer .sell_btn,
+    .popup_footer .reset_form {
+        font-size: 15px;
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .bidding_list,
+    .vehicle_top_details,
+    .title_flx {
+        flex-direction: column;
+    }
+    .pricing_details {
+        width: 220px;
+        max-width: 100%;
+        margin-top: 25px;
+    }
+    .pricing_details button,
+    .person_contact_details {
+        width: 100%;
+    }
+    .vahicle_name {
+        margin-top: 25px;
+    }
+    .custom_tooltip {
+        width: 190px;
+        right: -8px;
+        height: 80px;
+    }
+    .person_info .phn_num,
+    .vehicle_top_price {
+        margin-right: 0px;
+    }
+    .vehicle_top_details {
+        align-items: center;
+        text-align: center;
+    }
+    #secondary-slider .splide__slide span {
+        font-size: 10px;
+    }
+    .bidding_list {
+        align-items: center;
+    }
+    .vehicle_accepted .bidding_list_expanded .person_contact_section {
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .person_info .phn_num img {
+        margin-left: 0px;
+    }
+    .person_img {
+        margin-right: 10px;
+    }
+    .vehicle_accepted .bidding_list_expanded {
+        padding: 10px;
+    }
+    .sub_title {
+        font-style: 15px;
+    }
+}
+/*Vehicle-Detail_Live End*/
+
+@media only screen and (min-width: 320px) and (max-width: 900px) {
+    .vehicle_lst {
+        flex-direction: column;
+        align-items: center;
+    }
+    .vehicle_top {
+        margin-top: 30px;
+        flex-direction: column;
+    }
+    .audi_lst {
+        margin-bottom: 20px;
+    }
+    .vehicle_btn {
+        display: flex;
+        align-items: center;
+        align-self: center;
+        margin-bottom: 18px;
+    }
+    .vehc_lst {
+        margin-bottom: 20px;
+    }
+    .vehicle_btm {
+        flex-direction: column;
+    }
+    .comm_det {
+        width: 300px;
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 470px) {
+    .comm_det {
+        width: 300px;
+        margin-right: 0;
+        margin-bottom: 16px;
+        align-items: center;
+        flex-direction: column;
+    }
+    .vehicle_tst {
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -1,0 +1,458 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+img {
+    border: 0px;
+    outline: none;
+    display: block;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+}
+
+li {
+    list-style-type: none;
+}
+
+html, body {}
+
+.clr {
+    clear: both;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'mulishregular';
+    -webkit-font-smoothing: subpixel-antialiased;
+    -webkit-text-stroke: 1px transparent;
+}
+
+@font-face {
+    font-family: 'mulishbold';
+    src: url('/fonts/mulish-bold/mulish-bold-webfont.woff2') format('woff2'), url('/fonts/mulish-bold/mulish-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'mulishregular';
+    src: url('/fonts/mulish-regular/mulish-regular-webfont.woff2') format('woff2'), url('/fonts/mulish-regular/mulish-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'mulishsemibold';
+    src: url('/fonts/mulish-semibold/mulish-semibold-webfont.woff2') format('woff2'), url('/fonts/mulish-semibold/mulish-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/********************header_banner************************/
+
+.wrapper {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+
+/* Login */
+
+.w-100 {
+    width: 100%;
+}
+
+.flt {
+    float: left;
+}
+
+.login-left-wrap {
+    background: #EBFAFF;
+    width: 50%;
+}
+
+.login-right-wrap {
+    background: #E5E5E5;
+    width: 50%;
+}
+
+.login_wrapper {
+    min-height: 100vh;
+    background: linear-gradient(to left, #fafbfd 50%, #EBFAFF 50%);
+    background: -webkit-linear-gradient(right, #fafbfd 50%, #EBFAFF 50%);
+    position: relative;
+}
+
+.swich-sec {
+    width: 200px;
+    display: block;
+    text-align: center;
+    padding: 15px 0px;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #1763EA;
+    border-bottom: 1px solid #1763EA;
+}
+
+.swich-sec.active {
+    background: #1763EA;
+    border-radius: 5px 5px 0px 0px;
+    width: 200px;
+    display: block;
+    text-align: center;
+    padding: 15px 0px;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 0;
+}
+
+.switch-part a {
+    float: left;
+}
+
+.switch-part {
+    width: 100%;
+    float: none;
+    display: flex;
+    justify-content: center;
+}
+
+.login-section {
+    display: block;
+    float: left;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 7px rgb(0 0 0 / 10%);
+    border-radius: 5px;
+    padding: 57px 90px;
+    width: 480px;
+    margin-top: 50px;
+}
+
+.login-section h2 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #1763EA;
+    margin: 0;
+}
+
+.login-section span {
+    font-size: 20px;
+    color: #31322D;
+    display: block;
+}
+
+.login-section p {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #797A73;
+    margin-top: 20px;
+    max-width: 430px;
+}
+
+.input-container label {
+    position: relitive;
+    display: inline-block;
+    color: #004D40;
+    top: 100px;
+    font-size: 1.25em;
+    transition: all .2s ease;
+    z-index: 10;
+    position: relative;
+    top: -19px;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    color: #31322D;
+}
+
+.input-container input[type="text"], .input-container input[type="password"] {
+    width: 100%;
+    /*position: relative;*/
+    background-color: transparent;
+    border: none;
+    border-bottom: none;
+    outline: none;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    color: #31322D;
+}
+
+.input-container input[type="text"]:focus ~ label, .input-container input[type="text"]:valid ~ label, .input-container input[type="password"]:focus ~ label, .input-container input[type="password"]:valid ~ label {
+    top: -38px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 19px;
+    color: #8F9187;
+}
+
+.login-section form {
+    margin-top: 5px;
+}
+
+.input-container {
+    background: #FAFBFD;
+    box-shadow: 0px 8px 20px rgb(0 0 0 / 5%);
+    border-radius: 5px;
+    padding: 20px 20px 0px 57px;
+    position: relative;
+    margin-top: 30px;
+    width: 390px;
+}
+
+.login-section span.form-inp-icon {
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    top: 19px;
+}
+
+.password-toggle {
+    position: absolute;
+    right: 0;
+    top: 17px;
+    right: 35px;
+}
+
+.forgot-sec {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.forgot-sec label {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #7D7E76;
+    padding-right: 10px;
+}
+
+.forgot-sec a {
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 19px;
+    color: #00B99F;
+}
+
+.submit-btn {
+    margin-top: 40px;
+}
+
+.submit-btn button {
+    background: #1763EA;
+    font-weight: 600!important;
+    box-shadow: 0px 9px 20px 2px rgb(0 0 0 / 20%);
+    border-radius: 5px;
+    border: 0;
+    font-weight: 800;
+    font-size: 17px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 100%;
+    padding: 14.5px 0;
+    cursor: pointer;
+}
+
+.login-within-line {
+    position: relative;
+    margin: 64px 0 35px 0;
+    border-bottom: 1px solid #D3D3D3;
+}
+
+span.line-part {
+    width: 141px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #7D7E76;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: -8px;
+}
+
+.google-btn {
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid #CFD1C9;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 48%;
+    float: left;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #31322D;
+    padding: 14px 0;
+    cursor: pointer;
+    margin-right: 2%;
+}
+
+.google-btn img {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 25px;
+}
+
+.fb-btn {
+    text-align: center;
+    background: #1976D2;
+    border: 1px solid #1976D2;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 48%;
+    float: left;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #fff;
+    padding: 14px 0;
+    cursor: pointer;
+    margin-left: 2%;
+}
+
+.fb-btn img {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 25px;
+}
+
+.google-btn img {
+    margin-right: 18px;
+    padding: 0 15px 0 20px;
+    border-right: 1px solid #cfd1c9;
+}
+
+.fb-btn img {
+    margin-right: 18px;
+    padding: 0 15px 0 20px;
+    border-right: 1px solid #cfd1c9;
+}
+
+.login-margin-auto-part {
+    width: 100%;
+    display: block;
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    flex-direction: column;
+    padding: 68px 0 86px 0px;
+    background: url(/images/login-bg.png) no-repeat;
+    background-size: 100%;
+}
+
+.login-logo {
+    align-items: center;
+    align-self: center;
+    position: absolute;
+    left: 13%;
+    top: 30px;
+    width: 216px;
+}
+
+
+/*End Login */
+
+
+/* Forgot */
+
+.forgot-wrap .forgot-sec {
+    text-align: center;
+}
+
+.login-section h4 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #1C1D1F;
+    margin-top: 30px;
+}
+
+.forgot-wrap .login-section {
+    margin-top: 50px;
+}
+
+/* End Forgot */
+
+
+/* create account */
+
+.login_wrapper.create-account p {
+    margin-top: 0;
+}
+
+.input-container select {
+    border: 0;
+    width: 100%;
+    box-shadow: unset;
+    background: transparent;
+    margin-bottom: 19px;
+    margin-top: 4px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #31322D;
+}
+
+.input-container select:focus-visible {
+    outline: unset!important;
+}
+
+.invalid-msg {
+    color: #f36363;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+
+/* End create account */
+.reg-success {
+    background: #33a433;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #fff;
+    margin-bottom: 10px;
+}

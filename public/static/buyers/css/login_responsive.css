@@ -1,0 +1,64 @@
+/* Login */
+
+@media only screen and (max-width:1600px) {
+    .login-section h2 {
+        font-size: 20px;
+    }
+    .login-section span {
+        font-size: 16px;
+    }
+    .login-section h4 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .input-container {
+        margin-top: 22px;
+    }
+    .input-container label {
+        font-size: 15px;
+    }
+    .submit-btn {
+        margin-top: 30px;
+    }
+    .submit-btn button {
+        font-size: 15px;
+    }
+    .login-section p {
+        font-size: 15px;
+        margin-top: 13px;
+    }
+    .login-within-line {
+        margin: 46px 0 30px 0;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1400px) {
+    img.login-logo {
+        left: 5%;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .login-logo {
+        position: relative;
+        left: unset;
+        top: unset;
+        margin: 0 0 20px 20px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .swich-sec.active, .swich-sec {
+        width: 150px;
+    }
+    .login-section {
+        padding: 30px 15px;
+        margin-top: 50px;
+        width: 100%;
+        max-width: 89%;
+    }
+    .input-container {
+        width: auto;
+    }
+}
+/*End Login */

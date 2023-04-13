@@ -1,0 +1,16 @@
+<template>
+    <v-modal
+        name="sell-your-car"
+        :pivotY="_modal.pivotY"
+        :height="_modal.height"
+        :adaptive="true"
+        :maxWidth="1200"
+        :minWidth="100"
+        :width="1200"
+        :draggable="_modal.draggable"
+        :scrollable="_modal.scrollable"
+        :clickToClose="false"
+    >
+        <slot/>
+    </v-modal>
+</template>
